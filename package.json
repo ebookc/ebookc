@@ -1,0 +1,7 @@
+{ "name"        : "ebookc"
+, "version"     : "0.0.1"
+, "description" : "ebookc is a ebook compiler"
+, "author"      : "Raül Pérez <repejota@gmail.com> (http://www.web4linux.org)"
+, "main"        : "./lib/ebookc.js"
+, "bin"         : { "ebookc" : "./bin/ebookc-cli.js" }
+, "engines"     : { "node" : ">=0.1.90" } }
