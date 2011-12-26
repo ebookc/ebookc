@@ -34,6 +34,11 @@ if (process.argv[2]==='init') {
   ebookc.init();
 }
 
+// info
+if (process.argv[2]==='info') {
+  ebookc.info();
+}
+
 // compile
 if (process.argv[2]==='compile') {
   ebookc.compile();

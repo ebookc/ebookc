@@ -1,0 +1,72 @@
+{
+  "title": "ebookc Documentation Book",
+  "version": "0.0.1",
+  "author": {
+    "name": "Raül Pérez",
+    "email": "raul@web4linux.org",
+    "url": "http://ebookc.github.com"
+  },
+  "chapters": 
+  [
+    {
+      "name"  : "cover",
+      "file"  : "./src/cover.markdown",
+      "title" : "Cover"
+    },
+    {
+      "name"    : "copyright",
+      "file"    : "./src/copyright.markdown",
+      "title"   : "CopyRight"
+    },
+    {
+      "name"    : "credits",
+      "file"    : "./src/credits.markdown",
+      "title"   : "Credits"
+    },
+    {
+      "name"    : "author",
+      "file"    : "./src/author.markdown",
+      "title"   : "Author"
+    },
+    {
+      "name"    : "toc",
+      "file"    : "./src/toc.markdown",
+      "title"   : "Table of contents"
+    },
+    {
+      "name"    : "preface",
+      "file"    : "./src/preface.markdown",
+      "title"   : "Preface"
+    },
+    {
+      "name"    : "installation",
+      "file"    : "./src/installation.markdown",
+      "title"   : "Installation"
+    },
+    {
+      "name"    : "basicusage",
+      "file"    : "./src/basicusage.markdown",
+      "title"   : "Basic Usage"
+    },
+    {
+      "name"    : "advancedusage",
+      "file"    : "./src/advancedusage.markdown",
+      "title"   : "Advanced Usage"
+    },
+    {
+      "name"    : "compilationformats",
+      "file"    : "./src/compilationformats.markdown",
+      "title"   : "Compilation Formats"
+    },
+    {
+      "name"    : "themes",
+      "file"    : "./src/themes.markdown",
+      "title"   : "Themes"
+    },
+    {
+      "name"    : "errata",
+      "file"    : "./src/errata.markdown",
+      "title"   : "Errata"
+    }
+  ]
+}
