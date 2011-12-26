@@ -1,7 +1,30 @@
-{ "name"        : "ebookc"
-, "version"     : "0.0.1"
-, "description" : "ebookc is a ebook compiler"
-, "author"      : "Raül Pérez <repejota@gmail.com> (http://www.web4linux.org)"
-, "main"        : "./lib/ebookc.js"
-, "bin"         : { "ebookc" : "./bin/ebookc-cli.js" }
-, "engines"     : { "node" : ">=0.1.90" } }
+{ "name"          : "ebookc"
+, "version"       : "0.0.1"
+, "homepage"      : "http://ebookc.github.com"
+, "description"   : "ebookc is a ebook compiler"
+, "keywords"      : "ebook compiler html epub pdf mobi markdown"
+, "author"        : "Raül Pérez <repejota@gmail.com> (http://www.web4linux.org)"
+, "main"          : "./lib/ebookc.js"
+, "licenses"      :  
+  [ { "type"  : "AGPL-3.0"
+    , "url"   : "http://www.opensource.org/licenses/AGPL-3.0" 
+    }
+  ]
+, "repository"    : { "type"  : "git"
+                    , "url"   : "http://github.com/ebookc/ebookc.git" 
+                    }
+, "bugs"          : { "email" : "raul@web4linux.org"
+                    , "url" : "http://github.com/ebookc/ebookc/issues"
+                    }
+, "directories"   : { "doc" : "./docs"
+                    , "man" : "./man"
+                    , "lib" : "./lib"
+                    , "bin" : "./bin"
+                    }
+, "bin"           : { "ebookc" : "./bin/ebookc-cli.js" }
+, "dependencies"  : { "markdown" : "0.3.1"
+                    , "mustache" : "0.3.1-dev"
+                    , "ncp"      : "0.2.3"
+                    }
+, "engines"       : { "node" : "0.4 || 0.5 || 0.6" } 
+}

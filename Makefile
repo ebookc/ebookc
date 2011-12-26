@@ -5,4 +5,4 @@ install:
 	@npm install
 
 doc:
-	@cd docs; ebookc compile
+	@cd docs; rm -rf build/html; ebookc compile

@@ -1,11 +1,14 @@
 {
-  "title": "ebookc Documentation Book",
-  "version": "0.0.1",
+  "title"             : "ebookc Documentation Book",
+  "version"           : "0.0.1",
+  "meta_description"  : "ebookc is a tool to build ebooks",
+  "meta_keywords"     : "ebook, compiler, markdown, nodejs, epub, html, pdf, mobi",
   "author": {
     "name": "Raül Pérez",
     "email": "raul@web4linux.org",
     "url": "http://ebookc.github.com"
   },
+  "theme"     : "ebookc",
   "chapters": 
   [
     {
