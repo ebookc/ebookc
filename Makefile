@@ -3,3 +3,6 @@ clean:
 
 install:
 	@npm install
+
+doc:
+	@cd docs; ebookc compile
